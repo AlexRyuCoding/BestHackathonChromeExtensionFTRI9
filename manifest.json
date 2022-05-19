@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Placeholder",
+  "version": "1.0",
+  "description": "An extension for the FTRI 9 Hackathon.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "js": ["./main.js"],
+      "css": ["./index.css"]
+    }
+  ]
+}
