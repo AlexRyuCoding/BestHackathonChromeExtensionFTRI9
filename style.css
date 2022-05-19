@@ -1,0 +1,28 @@
+/*body {
+  background-color: lightcyan !important;
+}*/
+#board {
+  height: 700px;
+  width: 500px;
+  border: 3px rgb(0, 167, 81) solid;
+  background-image: url("https://mcdn.wallpapersafari.com/medium/23/83/p7jIFa.jpg");
+  position: absolute;
+  z-index: 9998;
+}
+
+#dogPic {
+  height: 700px;
+  width: 500px;
+  border: 1px solid black;
+  top: 50px;
+  left: 50px;
+  background-image: url("https://i.imgur.com/XgbZdeA.jpeg");
+  z-index: 9999;
+}
+
+#ruleBanner {
+  height: 100px;
+  width: 500px;
+  border: 3px rgb(0, 167, 81) solid;
+  background-image: url("https://mcdn.wallpapersafari.com/medium/23/83/p7jIFa.jpg");
+}

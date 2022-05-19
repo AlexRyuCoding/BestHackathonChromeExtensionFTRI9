@@ -5,9 +5,9 @@
   "description": "An extension for the FTRI 9 Hackathon.",
   "content_scripts": [
     {
-      "matches": ["https://www.google.com/*"],
+      "matches": ["https://developer.mozilla.org/*", "https://www.w3schools.com/*", "https://github.com/*"],
       "js": ["./main.js"],
-      "css": ["./index.css"]
+      "css": ["./style.css"]
     }
   ]
 }
